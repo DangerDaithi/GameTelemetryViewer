@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTelemetryViewer", "GameTelemetryViewer\GameTelemetryViewer.csproj", "{BA554866-F1DA-4585-AA93-F166D86B7BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA554866-F1DA-4585-AA93-F166D86B7BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA554866-F1DA-4585-AA93-F166D86B7BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA554866-F1DA-4585-AA93-F166D86B7BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA554866-F1DA-4585-AA93-F166D86B7BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1FAFFF-77A2-4357-BDE9-2FE8A630A6EB}
+	EndGlobalSection
+EndGlobal

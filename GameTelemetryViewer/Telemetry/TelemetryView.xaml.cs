@@ -18,7 +18,7 @@ namespace GameTelemetryViewer.Telemetry
     /// <summary>
     /// Interaction logic for TelemetryView.xaml
     /// </summary>
-    public partial class TelemetryView : Page
+    public partial class TelemetryView : UserControl
     {
         public TelemetryView()
         {

@@ -71,12 +71,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ApplicationStateManagers\TelemetryProducer.cs" />
     <Compile Include="ApplicationStateManagers\TelemetryStateService.cs" />
     <Compile Include="Home\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home\HomeViewModel.cs" />
+    <Compile Include="Telemetry\GameTelemetryViewModel.cs" />
     <Compile Include="Telemetry\TelemetryView.xaml.cs">
       <DependentUpon>TelemetryView.xaml</DependentUpon>
     </Compile>
@@ -128,6 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameTelemetryViewer.Telemetry\GameTelemetryViewer.Telemetry.csproj">
+      <Project>{ddefd3a5-c667-4717-925c-cf67d237ffe2}</Project>
+      <Name>GameTelemetryViewer.Telemetry</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
